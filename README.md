@@ -2,13 +2,21 @@ CẤU TRÚC
 
 back_end/Code
   ├── connect.py # Kết nối CSDL (SQLite/PostgreSQL/khác)
+  
   ├── encode.py # Mã hóa dữ liệu và tạo vector embeddings
+  
   ├── faiss_index/ # Thư mục chứa index FAISS
+  
   ├── genativeAI.py # Sinh câu trả lời từ mô hình ngôn ngữ
+  
   ├── main.py # Điểm khởi chạy chính cho pipeline
+  
   ├── pipeline.py # Xử lý toàn bộ pipeline: encode → index → query → answer
+  
   ├── query.py # Module tìm kiếm truy vấn qua FAISS
-  ├── Tofaiss.p # File chứa serialized FAISS index
+  
+  ├── Tofaiss.py # File chứa serialized FAISS index
+  
   my_site # Django back_end
   pool # Django back_end
   
