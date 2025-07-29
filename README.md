@@ -1,4 +1,5 @@
 CẤU TRÚC
+
 back_end/Code
   ├── connect.py # Kết nối CSDL (SQLite/PostgreSQL/khác)
   ├── encode.py # Mã hóa dữ liệu và tạo vector embeddings
@@ -10,11 +11,14 @@ back_end/Code
   ├── Tofaiss.p # File chứa serialized FAISS index
   my_site # Django back_end
   pool # Django back_end
+  
 front_end
 ├── src/app # Xây dựng giao diện user
+
 P_Code
 ├── query.sql # Các truy vấn để gọi API
 ├── schema.sql # cấu trúc database xây dựng
+
 Datas
 ├── # dữ liệu tiếng việt 
 
