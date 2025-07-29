@@ -1,6 +1,12 @@
-.ven/
-venv
-
-__pycache__/ 
+# Bỏ tất cả virtual envs và Python cache
+.venv/
+venv/
+**/__pycache__/
 *.py[cod]
+
+# Bỏ tất cả node_modules ở mọi cấp thư mục
+**/node_modules/
+
+# Bỏ tất cả thư mục tên env ở bất kỳ đâu (ví dụ .back_end/env, hoặc env/)
+**/env/
 

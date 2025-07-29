@@ -45,3 +45,8 @@ where content = 'TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI';
 
 --Tìm documents theo ngôn ngữ hoặc loại file.
 select * from documents where languages @> ARRAY['eng'];
+
+-- Lấy id , vector , content ra để đưa vào faiss
+select e.id , e.vector_data , c.page_content from embeddings as e 
+join chunks as c on e.chunk_id = c.id
+order by e.id asc;
