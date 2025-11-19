@@ -1,35 +1,3 @@
-CẤU TRÚC
-
-back_end/Code
-  ├── connect.py # Kết nối CSDL (SQLite/PostgreSQL/khác)
-  
-  ├── encode.py # Mã hóa dữ liệu và tạo vector embeddings
-  
-  ├── faiss_index/ # Thư mục chứa index FAISS
-  
-  ├── genativeAI.py # Sinh câu trả lời từ mô hình ngôn ngữ
-  
-  ├── main.py # Điểm khởi chạy chính cho pipeline
-  
-  ├── pipeline.py # Xử lý toàn bộ pipeline: encode → index → query → answer
-  
-  ├── query.py # Module tìm kiếm truy vấn qua FAISS
-  
-  ├── Tofaiss.py # File chứa serialized FAISS index
-  
-  my_site # Django back_end
-  pool # Django back_end
-  
-front_end
-├── src/app # Xây dựng giao diện user
-
-P_Code
-├── query.sql # Các truy vấn để gọi API
-├── schema.sql # cấu trúc database xây dựng
-
-Datas
-├── # dữ liệu tiếng việt 
-
 MÔ TẢ
 - Đánh giá và lựa chọn mô hình NLP phù hợp trên Hugging Face:
 Tiến hành khảo sát, thử nghiệm và so sánh các mô hình embedding và generative từ thư viện Hugging Face. Dựa trên độ phù hợp ngữ cảnh tiếng Việt, tốc độ xử lý và khả năng mở rộng, lựa chọn mô hình ATeamVN/Vietnamese_Embedding để nhúng văn bản và VietAI/gpt-neo-1.3B-vietnamese-news để sinh câu trả lời.
@@ -91,6 +59,4 @@ CÔNG CỤ
 
 
 KẾT QUẢ :
-<img width="1925" height="736" alt="image" src="https://github.com/user-attachments/assets/0b2f3d32-5e31-44d6-ac2d-933a14cf0698" />
-
-
+<img width="1916" height="1074" alt="569942129_1223201279831750_8418946232681406193_n" src="https://github.com/user-attachments/assets/8b5b6710-a7f9-4755-a171-ad2b7690a528" />
