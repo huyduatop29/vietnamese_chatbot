@@ -10,7 +10,6 @@ Triển khai mô hình ATeamVN/Vietnamese_Embedding từ Hugging Face để chuy
 
 - hiết kế cơ sở dữ liệu và mô hình quan hệ:
 Xây dựng hệ thống lưu trữ bằng PostgreSQL để quản lý thông tin gốc của các chunk và tài liệu. Thiết kế hai bảng chính: chunks chứa nội dung và metadata, embeddings chứa vector hóa và ánh xạ tới các chunk tương ứng.
-<img width="1563" height="874" alt="Screenshot from 2025-06-25 02-29-49" src="https://github.com/user-attachments/assets/8588338e-218b-48b8-acbf-f4eecec13a1e" />
 
 - Tích hợp FAISS và PostgreSQL cho truy xuất hiệu quả:
 Thực hiện ánh xạ từ cơ sở dữ liệu PostgreSQL sang FAISS để lưu trữ vector embedding cục bộ, giúp tiết kiệm tài nguyên và tăng tốc độ tìm kiếm. Dữ liệu được đồng bộ giữa database và index FAISS.
