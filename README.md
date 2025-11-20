@@ -58,4 +58,5 @@ CÔNG CỤ
 
 
 KẾT QUẢ :
-<img width="1916" height="1074" alt="569942129_1223201279831750_8418946232681406193_n" src="https://github.com/user-attachments/assets/8b5b6710-a7f9-4755-a171-ad2b7690a528" />
+<img width="1913" height="924" alt="569942129_1223201279831750_8418946232681406193_n" src="https://github.com/user-attachments/assets/3f6e0626-37ba-4524-bd89-57ecd89228bb" />
+
